@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/rabidaudio/chess/board"
+	"github.com/rabidaudio/chess/game"
 )
 
 func main() {
-	fmt.Print(board.Initial().StringFromPerspective(board.Black))
+	fmt.Print(game.InitialBoard().StringFromPerspective(game.Black))
 }
